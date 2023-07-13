@@ -486,5 +486,5 @@ fedora
 root@slava:~/CI_configure/08-ansible-01-base/playbook#
 ```
 6. Все изменения должны быть зафиксированы и отправлены в ваш личный репозиторий.
-
-https://github.com/slava1005/CImon/edit/master/08-ansible-01-base/
+7. 
+https://github.com/slava1005/CImon/edit/master/08-ansible-01-base/playbook/ansible.md
