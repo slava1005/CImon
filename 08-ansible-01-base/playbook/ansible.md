@@ -214,8 +214,6 @@ ansible.builtin.local          execute on controller
 11. Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь, что факты some_fact для каждого из хостов определены из верных group_vars.
 ```
 
-
-
 root@slava:~/CI_configure/08-ansible-01-base/playbook# ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 Vault password:
 
@@ -486,5 +484,5 @@ fedora
 root@slava:~/CI_configure/08-ansible-01-base/playbook#
 ```
 6. Все изменения должны быть зафиксированы и отправлены в ваш личный репозиторий.
-7. 
+   
 https://github.com/slava1005/CImon/edit/master/08-ansible-01-base/playbook/ansible.md
